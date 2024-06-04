@@ -1,0 +1,13 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.active li
+{
+    @apply bg-gray-300;
+}
+
+.act.active
+{
+    @apply rounded border-white border-solid border p-2.5;
+}
